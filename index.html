@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Validation</title>
+</head>
+<body>
+
+<h2>Registration Form</h2>
+
+<form onsubmit="return validateForm()">
+    Name: <br>
+    <input type="text" id="name">
+    <span id="nameError" style="color:red"></span><br><br>
+
+    Email: <br>
+    <input type="text" id="email">
+    <span id="emailError" style="color:red"></span><br><br>
+
+    Password: <br>
+    <input type="password" id="password">
+    <span id="passwordError" style="color:red"></span><br><br>
+
+    <button type="submit">Register</button>
+</form>
+
+<script src="validation.js"></script>
+
+</body>
+</html>
